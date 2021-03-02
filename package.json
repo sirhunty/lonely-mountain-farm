@@ -4,7 +4,8 @@
   "description": "New home website for the Lonely Mountain marijuana grower built utilizing HTML, CSS/Sass, and JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/sirhunty/lonely-mountain-farm#readme",
   "dependencies": {
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "serve": "^11.3.2"
   }
 }
