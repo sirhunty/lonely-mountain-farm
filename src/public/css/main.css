@@ -12,7 +12,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: set-text-color(#444);
+  background: black;
   -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
@@ -70,7 +70,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: #e60000;
   list-style: none;
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
@@ -84,7 +84,7 @@
 }
 
 .menu-branding {
-  background: #444;
+  background: red;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
   -webkit-transition: all 0.8s ease-out;
@@ -101,7 +101,7 @@
   height: 250px;
   background: url("/src/public/assets/Images/Business/lonely-logo.png");
   border-radius: 50%;
-  border: solid 3px #ab1aee;
+  border: solid 3px #ffffff;
 }
 
 .menu .nav-item {
@@ -117,7 +117,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #ab1aee;
+  color: #ffffff;
 }
 
 .menu .nav-link {
@@ -127,14 +127,14 @@
   text-transform: uppercase;
   padding: 1rem;
   font-weight: 300;
-  color: set-text-color(#444);
+  color: black;
   text-decoration: none;
   -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
 
 .menu .nav-link:hover {
-  color: #ab1aee;
+  color: #ffffff;
 }
 
 .nav-item:nth-child(1) {
