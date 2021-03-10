@@ -1,10 +1,10 @@
-$primary-color: rgb(255, 0, 0);
-$secondary-color: #ffffff;
+$primary-color: rgb(90, 90, 90);
+$secondary-color: #00be19;
 $show-home-image: true;
 $home-image: url('/src/public/assets/Images/Strains/Green-Crack-Bulk.jpg');
 $portrait-image: url('/src/public/assets/Images/Business/lonely-logo.png');
 $portrait-small: url('/src/public/assets/Images/Business/lonely-logo.png');
-$background-opacity: 0.8;
+$background-opacity: .05;
 
 @mixin easeOut {
     transition: all 0.8s ease-out;
@@ -35,7 +35,6 @@ $background-opacity: 0.8;
 
 
 // Changes text color based upon the primary color; if dark, the text will change to a lighter color (white)
-
 @function set-text-color($color) {
     @if (lightness($color) > 40) {
         @return black;

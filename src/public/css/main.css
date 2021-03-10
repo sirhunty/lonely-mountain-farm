@@ -12,7 +12,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: black;
+  background: white;
   -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
@@ -70,7 +70,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #e60000;
+  background: #4d4d4d;
   list-style: none;
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
@@ -84,7 +84,7 @@
 }
 
 .menu-branding {
-  background: red;
+  background: #5a5a5a;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
   -webkit-transition: all 0.8s ease-out;
@@ -101,7 +101,9 @@
   height: 250px;
   background: url("/src/public/assets/Images/Business/lonely-logo.png");
   border-radius: 50%;
-  border: solid 3px #ffffff;
+  border: solid 3px #00be19;
+  background-position: center;
+  background-size: cover;
 }
 
 .menu .nav-item {
@@ -117,7 +119,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #ffffff;
+  color: #00be19;
 }
 
 .menu .nav-link {
@@ -127,14 +129,14 @@
   text-transform: uppercase;
   padding: 1rem;
   font-weight: 300;
-  color: black;
+  color: white;
   text-decoration: none;
   -webkit-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
 
 .menu .nav-link:hover {
-  color: #ffffff;
+  color: #00be19;
 }
 
 .nav-item:nth-child(1) {
@@ -163,7 +165,7 @@
 }
 
 .bg-img {
-  background-image: url(/src/public/assets/Images/Strains/Green-Crack-Bulk.jpg);
+  background-image: url("/src/public/assets/Images/Strains/Green-Crack-Bulk.jpg");
   background-position: center;
   background-size: cover;
 }
