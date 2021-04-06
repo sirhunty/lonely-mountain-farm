@@ -242,6 +242,11 @@
   top: 0;
 }
 
+.strainTitle {
+  font-size: 48px;
+  color: #004611;
+}
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
