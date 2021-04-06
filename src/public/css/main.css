@@ -181,6 +181,9 @@
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  border: #004611;
+  border-style: solid;
+  border-radius: 2px;
 }
 
 /* Hide the images by default */
