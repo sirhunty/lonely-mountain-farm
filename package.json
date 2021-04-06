@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
+    "dev": "node -r esm index.js",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/sirhunty/lonely-mountain-farm#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "esm": "^3.2.25",
+    "instagram-web-api": "^2.2.2",
+    "node": "^15.12.0",
     "sass": "^1.32.8",
     "serve": "^11.3.2"
   }
