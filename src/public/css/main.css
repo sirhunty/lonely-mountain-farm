@@ -172,12 +172,16 @@
 /* Slideshow container */
 .strain-slideshow {
   max-width: 1000px;
+  max-height: 1000px;
   position: relative;
   margin: auto;
 }
 
 .strainImg {
   height: 1000px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
