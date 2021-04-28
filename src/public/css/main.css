@@ -319,6 +319,10 @@ h2.sm-heading,
 h3.sm-heading {
   padding: 0.2rem 1rem;
   background: rgba(95, 95, 95, 0.5);
+  border: #004611;
+  border-radius: 5px;
+  border-style: solid;
+  border-right: none;
 }
 
 a {
