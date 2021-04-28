@@ -51,9 +51,6 @@
           <a href="/index.html" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a href="/src/html/about.html" class="nav-link">About Me</a>
-        </li>
-        <li class="nav-item">
           <a href="/src/html/projects.html" class="nav-link">The Grow</a>
         </li>
         <li class="nav-item current">
@@ -66,7 +63,7 @@
     </nav>
   </header>
 
-  <main id="about">
+  <main id="strains">
     <h1 class="lg-heading">
       Current
       <span class="text-secondary">Strains</span>
@@ -75,10 +72,28 @@
 
     <!-- Slideshow container -->
     <div class="strain-slideshow">
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div class="dotGroup">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+
       <!-- Full-width images with number and caption text -->
-      <div class="strainSlides fade">
-        <div class="numbertext">1 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/24K-GOLD.jpg" style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">1 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/24K-GOLD.jpg" />
         <div class="strainTitle">24K GOLD</div>
         <div class="text">
           SATIVA DOMINANT: DNA Genetics crosses Kosher Kush with the
@@ -88,9 +103,9 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">2 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Black-Dog.jpg" style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">2 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Black-Dog.jpg" />
         <div class="strainTitle">Black D.O.G.</div>
         <div class="text">
           Genotype 85% Indica / 15% Sativa Cross Blackberry Kush x Emerald
@@ -107,9 +122,9 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">3 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Chocolope.jpg" style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">3 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Chocolope.jpg" />
         <div class="strainTitle">Chocolope</div>
         <div class="text">
           95% Sativa 5% Indica DNA Genetics crosses “Original
@@ -122,18 +137,16 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">4 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Durban-Poison.jpg"
-          style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">4 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Durban-Poison.jpg" />
         <div class="strainTitle">Durban Poison</div>
         <div class="text">SATIVA DOMINAT strain</div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">5 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Golden-Lemons.jpg"
-          style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">5 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Golden-Lemons.jpg" />
         <div class="strainTitle">Golden Lemons</div>
         <div class="text">
           60% Indica 40% Sativa DNA Genetics crosses two
@@ -144,9 +157,9 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">6 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Green-Crack.jpg" style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">6 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Green-Crack.jpg" />
         <div class="strainTitle">Green Crack</div>
         <div class="text">
           Hybrid Indica/Sativa Lineage: Cecil B. x
@@ -164,10 +177,9 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">7 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Holy-Grail-Kush-1.jpg"
-          style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">7 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Holy-Grail-Kush-1.jpg" />
         <div class="strainTitle">Holy Grail Kush</div>
         <div class="text">
           Indica Dominant DNA Crosses “Kosher Kush” with the
@@ -179,10 +191,9 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">8 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/LA-Confidential-1.jpg"
-          style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">8 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/LA-Confidential-1.jpg" />
         <div class="strainTitle">LA Confidential</div>
         <div class="text">
           100% Indica DNA Genetics crosses “OG L.A. Affie”
@@ -195,10 +206,9 @@
         </div>
       </div>
 
-      <div class="strainSlides fade">
-        <div class="numbertext">9 / 9</div>
-        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Mango-Sapphire.jpg"
-          style="width: 100%" />
+      <div class="strainSlides">
+        <!-- <div class="numbertext">9 / 9</div> -->
+        <img class="strainImg" src="/src/public/assets/Images/Strains/Individual/Mango-Sapphire.jpg" />
         <div class="strainTitle">Mango Sapphire</div>
         <div class="text">
           Genotype: 85% Indica / 15% Sativa CrossBubba's Gift x OG/Afghan X
@@ -213,24 +223,9 @@
         </div>
       </div>
 
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br />
 
-    <!-- The dots/circles -->
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
-      <span class="dot" onclick="currentSlide(9)"></span>
-    </div>
   </main>
 
   <script src="/src/public/js/main.js"></script>
