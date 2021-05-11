@@ -273,6 +273,25 @@
   background-color: #717171;
 }
 
+@media screen and (max-width: 500px) {
+  .strainImg {
+    height: 250px;
+    width: 150px;
+  }
+  main {
+    padding-right: 4rem;
+    padding-left: 2rem;
+  }
+  .text {
+    font-size: small;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #5a5a5a;
   position: fixed;
@@ -301,6 +320,7 @@ body.bg-img:after {
   background: rgba(90, 90, 90, 0.7);
 }
 
+Headings
 h1,
 h2,
 h3 {
@@ -308,21 +328,11 @@ h3 {
   font-weight: 400;
 }
 
+Headings
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
   font-size: 6rem;
-}
-
-h1.sm-heading,
-h2.sm-heading,
-h3.sm-heading {
-  padding: 0.2rem 1rem;
-  background: rgba(95, 95, 95, 0.5);
-  border: #004611;
-  border-radius: 5px;
-  border-style: solid;
-  border-right: none;
 }
 
 a {
