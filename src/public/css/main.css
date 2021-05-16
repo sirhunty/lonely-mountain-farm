@@ -282,8 +282,11 @@
     padding-right: 4rem;
     padding-left: 2rem;
   }
+  .strainTitle {
+    font-size: 16px;
+  }
   .text {
-    font-size: 9px;
+    font-size: 12px;
   }
 }
 
