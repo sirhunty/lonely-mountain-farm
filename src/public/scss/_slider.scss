@@ -6,10 +6,13 @@
 
 /* Slideshow container */
 .strain-slideshow {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  text-align: center;
+  // max-width: 1000px;
+  // position: relative;
+  // margin: auto;
+  // text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .strainImg {
