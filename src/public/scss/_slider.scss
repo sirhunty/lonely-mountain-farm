@@ -2,12 +2,11 @@
 
 #strains {
   text-align: center;
+  padding: 20px;
 }
 
 /* Slideshow container */
 .strain-slideshow {
-  // max-width: 1000px;
-  // position: relative;
   // margin: auto;
   // text-align: center;
   display: flex;
@@ -37,7 +36,7 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 225px;
+  top: 350px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -49,13 +48,14 @@
   @include easeOut;
 }
 
-/* Position the "next button" to the right */
+/* Position the "right next button" to the right */
 .next {
-  right: 0;
+  right: 15%;
 }
 
+/* Position the "left next button" to the left */
 .prev {
-  left: 0;
+  left: 15%;
 }
 
 .prev:hover, .next:hover {
