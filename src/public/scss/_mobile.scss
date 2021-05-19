@@ -1,35 +1,79 @@
-@media screen and (max-width: 623px){
-  .strainImg {
-    height: 350px;
-    width: 250px;
+@media screen and (max-width: 375px){
+  .prev, .next {
+    top: 270px;
   }
-  .strainTitle {
-    font-size: 20px;
-  }
-  .text {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 500px){
- 
+ /* Position the "right next button" to the right */
+ .next {
+   right: 15%;
+ }
+ /* Position the "left next button" to the left */
+ .prev {
+   left: 15%;
+ }
   .strainImg {
     height: 250px;
     width: 150px;
   }
+  .strainTitle {
+    font-size: 26px;
+  }
+  .text {
+    font-size: 14px;
+  }
+}
 
+@media screen and (min-width: 376px){
+  .prev, .next {
+    top: 315px;
+  }
+  /* Position the "right next button" to the right */
+ .next {
+   right: 5%;
+ }
+ /* Position the "left next button" to the left */
+ .prev {
+   left: 5%;
+ }
+  .strainImg {
+    height: 350px;
+    width: 250px;
+  }
   main {
     padding-bottom: 10px;
   }
-
   .strainTitle {
-    font-size: 16px;
+    font-size: 30px;
   }
-  
   .text {
-    font-size: 10px;
+    font-size: 18px;
   }
+}
 
+@media screen and (min-width: 575px){
+  .prev, .next {
+    top: 330px;
+  }
+  /* Position the "right next button" to the right */
+ .next {
+   right: 10%;
+ }
+ /* Position the "left next button" to the left */
+ .prev {
+   left: 10%;
+ }
+  .strainImg {
+    height: 450px;
+    width: 350px;
+  }
+  main {
+    padding-bottom: 10px;
+  }
+  .strainTitle {
+    font-size: 40px;
+  }
+  .text {
+    font-size: 20px;
+  }
 }
 
 
