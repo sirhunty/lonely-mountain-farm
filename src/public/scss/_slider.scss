@@ -1,14 +1,14 @@
-* {box-sizing:border-box}
+
 
 #strains {
   text-align: center;
   padding: 20px;
+  margin-bottom: 2rem;
+  overflow: visible;
 }
 
 /* Slideshow container */
 .strain-slideshow {
-  // margin: auto;
-  // text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
