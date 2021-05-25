@@ -47,7 +47,7 @@ main {
   height: 100%;
   // Stick Footer: subtracting the size
   //of the footer from the veiwport height
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 200px);
   display: flex;
   justify-content: center;
   flex-direction: column;
