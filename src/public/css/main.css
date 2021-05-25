@@ -281,6 +281,123 @@
   background-color: #717171;
 }
 
+#strains {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  min-height: calc(100vh - 60px);
+}
+
+/* Slideshow container */
+.strain-slideshow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10rem;
+}
+
+.strainImg {
+  height: 450px;
+  width: 350px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  border: #004611;
+  border-style: solid;
+  border-radius: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Hide the images by default */
+.strainSlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 350px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+
+/* Position the "right next button" to the right */
+.next {
+  right: 15%;
+}
+
+/* Position the "left next button" to the left */
+.prev {
+  left: 15%;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(23, 255, 54, 0.8);
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+.strainTitle {
+  font-size: 48px;
+  color: #004611;
+}
+
+/* The dots/bullets/indicators */
+.dotGroup {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  text-align: center;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
 @media screen and (max-width: 375px) {
   .prev, .next {
     top: 270px;
