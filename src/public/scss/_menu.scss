@@ -82,7 +82,9 @@
 
     // Targeting the branding side of the menu (left side)
     &-branding {
-        background: $primary-color;
+        background: $home-image;
+        background-attachment: fixed;
+        background-size: 50%;
         transform: translate3d(0, -100%, 0);
         @include easeOut;
 

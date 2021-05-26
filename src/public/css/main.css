@@ -84,7 +84,9 @@
 }
 
 .menu-branding {
-  background: #5a5a5a;
+  background: url("/src/public/assets/Images/Strains/Bulk/Holy-Grail-Kush-1-Bulk.jpg");
+  background-attachment: fixed;
+  background-size: 50%;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
   -webkit-transition: all 0.8s ease-out;
