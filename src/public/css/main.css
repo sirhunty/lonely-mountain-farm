@@ -482,6 +482,7 @@ main .icons a:hover {
 main#home {
   overflow: hidden;
   padding-left: 30%;
+  padding-right: 30%;
 }
 
 main#home h1 {
