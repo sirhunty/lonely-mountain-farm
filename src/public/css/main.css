@@ -326,7 +326,7 @@
   }
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 574px) {
   .prev, .next {
     top: 360px;
   }
@@ -350,6 +350,20 @@
   }
   .text {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .prev, .next {
+    top: 360px;
+  }
+  /* Position the "right next button" to the right */
+  .next {
+    right: 14%;
+  }
+  /* Position the "left next button" to the left */
+  .prev {
+    position: 14%;
   }
 }
 
