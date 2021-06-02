@@ -229,15 +229,7 @@
 }
 
 /* Position the "right next button" to the right */
-.next {
-  right: 15%;
-}
-
 /* Position the "left next button" to the left */
-.prev {
-  left: 15%;
-}
-
 .prev:hover, .next:hover {
   background-color: rgba(23, 255, 54, 0.8);
   -webkit-transition: all 0.8s ease-out;
@@ -340,11 +332,11 @@
   }
   /* Position the "right next button" to the right */
   .next {
-    right: 10%;
+    right: 15%;
   }
   /* Position the "left next button" to the left */
   .prev {
-    left: 10%;
+    left: 15%;
   }
   .strainImg {
     height: 450px;
