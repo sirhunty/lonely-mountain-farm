@@ -305,11 +305,11 @@
   }
   /* Position the "right next button" to the right */
   .next {
-    right: 5%;
+    right: 10%;
   }
   /* Position the "left next button" to the left */
   .prev {
-    left: 5%;
+    left: 10%;
   }
   .strainImg {
     height: 350px;
@@ -328,15 +328,15 @@
 
 @media screen and (min-width: 575px) {
   .prev, .next {
-    top: 330px;
+    top: 360px;
   }
   /* Position the "right next button" to the right */
   .next {
-    right: 15%;
+    right: 14%;
   }
   /* Position the "left next button" to the left */
   .prev {
-    left: 15%;
+    left: 14%;
   }
   .strainImg {
     height: 450px;
