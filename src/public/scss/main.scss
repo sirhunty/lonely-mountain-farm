@@ -15,19 +15,10 @@ body {
   line-height: 1.5;
 }
 
-
-Headings
-h1,
-h2,
-h3 {
-  margin: 0;
-  font-weight: 400;
+#text {
   font-size: xx-large;
-
-  &.lg-heading {
-    font-size: 60px;
-  }
 }
+
 
 a {
   color: set-text-color($primary-color);
