@@ -15,10 +15,16 @@ body {
   line-height: 1.5;
 }
 
-#text {
-  font-size: xx-large;
-}
 
+.lg-heading {
+  margin: 0;
+  font-weight: 400;
+  font-size: 60px;
+  
+  &.span {
+    font-size: xx-large;
+  }
+}
 
 a {
   color: set-text-color($primary-color);
