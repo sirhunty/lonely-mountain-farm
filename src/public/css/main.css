@@ -397,6 +397,10 @@
   }
 }
 
+.footer {
+  height: 50px;
+}
+
 body {
   background-color: #5a5a5a;
   position: absolute;
